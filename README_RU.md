@@ -32,13 +32,13 @@ composer require bwt-team/laravel-console
 После обновления composer добавьте service provider в массив `providers` в `config/app.php`. 
 
 ```php
-BwtTeam\LaravelConsole\Commands\ConsoleServiceProvider::class
+BwtTeam\LaravelConsole\Providers\ConsoleServiceProvider::class
 ```
 
 Этот service provider предоставит возможность опубликовать конфигурационный файл, чтоб изменить настройки консольных команд.
 
 ```bash
-php artisan vendor:publish --provider="BwtTeam\LaravelConsole\Commands\ConsoleServiceProvider" --tag=config
+php artisan vendor:publish --provider="BwtTeam\LaravelConsole\Providers\ConsoleServiceProvider" --tag=config
 ```
 
 Нужные консольные команды необходимо зарегистрировать в файле `app/Console/Kernel.php`.
