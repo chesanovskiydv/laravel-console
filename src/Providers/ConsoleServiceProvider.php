@@ -1,6 +1,6 @@
 <?php
 
-namespace BwtTeam\LaravelConsole\Commands;
+namespace BwtTeam\LaravelConsole\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
