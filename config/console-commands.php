@@ -16,8 +16,8 @@ return [
          | Ключами данного массива явлюятся окружения к которым будут применены эти настройки.
          */
         'local' => [
-            "php artisan ide-helper:generate",
-            "php artisan ide-helper:meta"
+//            "ide-helper:generate",
+//            "ide-helper:meta"
         ]
     ]
 
