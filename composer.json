@@ -1,5 +1,5 @@
 {
-  "name": "bwt-team/laravel-console-commands",
+  "name": "bwt-team/laravel-console",
   "description": "Package with a set of useful console commands",
   "keywords": ["laravel", "lumen", "api", "console"],
   "license": "MIT",
