@@ -47,7 +47,7 @@ class ComposerUpdate extends Command
     public function handle()
     {
         $env = $this->option('env') !== null ? $this->option('env') : $this->laravel->environment();
-        $config = $this->config->get('console-commands.update');
+        $config = $this->config->get('console-commands.composer_update');
 
         if(array_key_exists($env, $config)) {
             foreach($config[$env] as $command) {
