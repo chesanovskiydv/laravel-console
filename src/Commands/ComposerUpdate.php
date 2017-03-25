@@ -4,6 +4,12 @@ namespace BwtTeam\LaravelConsole\Commands;
 
 use Illuminate\Console\Command;
 
+/**
+ * Class ComposerUpdate
+ * @package BwtTeam\LaravelConsole\Commands
+ *
+ * @example php artisan app:update --env=local
+ */
 class ComposerUpdate extends Command
 {
     /**

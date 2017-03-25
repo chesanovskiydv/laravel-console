@@ -5,6 +5,12 @@ namespace BwtTeam\LaravelConsole\Commands;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * Class QueueStart
+ * @package BwtTeam\LaravelConsole\Commands
+ *
+ * @example php artisan app:queue:start --queue=default
+ */
 class QueueStart extends Command
 {
     const OPTION_ALL = 'all';
@@ -31,11 +37,7 @@ class QueueStart extends Command
     /**
      * @var array
      */
-    protected $queues = [
-        'default',
-        'price-checking',
-        'notification',
-    ];
+    protected $queues = [];
 
     /**
      * Create a new command instance.
